@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+.container {
+  padding: 12px;
+}
+h1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.site-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.card .site {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.card .time {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.progress {
+  position: relative;
+  background: #e0e0e0;
+  border-radius: 4px;
+  height: 8px;
+  overflow: hidden;
+}
+.progress .bar {
+  height: 100%;
+  background: #76c7c0;
+  width: 0%;
+  transition: width 0.3s ease;
+}
